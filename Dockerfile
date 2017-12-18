@@ -13,4 +13,4 @@ RUN sed -i -e "s/-H fd:\/\//-H fd:\/\/ -H tcp:\/\/$IP:2375/g" /lib/systemd/syste
 RUN service docker start
 ADD my_script.py /
 ADD app.py /
-CMD [ "python", "./my_script.py" ]
+#CMD [ "python", "./my_script.py" ]
