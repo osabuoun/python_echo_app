@@ -6,3 +6,23 @@ testy
 {'id': 'id_2', 'sleep': '20', 'misc': ['127.0.0.253']}
 ------- Waiting for 20------
 ------- Finished ------
+{'misc': ['127.0.0.1'], 'server': '192.168.253.1:8081', 'sleep': '100', 'id': 'id_11'}
+------- Waiting for 100------
+{'sleep': '5', 'id': 'id_11', 'server': '192.168.253.1:8081', 'misc': ['127.0.0.1']}
+------- Waiting for 5------
+------- Finished ------
+{'id': 'id_11', 'misc': ['127.0.0.1'], 'server': '192.168.253.1:8081', 'sleep': '5'}
+------- Waiting for 5------
+------- Finished ------
+{'id': 'id_11', 'sleep': '5', 'misc': ['127.0.0.1'], 'server': 'http://192.168.253.1:8081'}
+------- Waiting for 5------
+{'id': 'id_11', 'server': 'http://localhost:8081', 'misc': ['127.0.0.1'], 'sleep': '5'}
+------- Waiting for 5------
+------- Finished ------
+{'misc': ['127.0.0.1'], 'server': 'http://localhost:8081', 'id': 'id_11', 'sleep': '5'}
+------- Waiting for 5------
+------- Finished ------
+{'misc': ['127.0.0.1'], 'sleep': '5', 'id': 'id_11', 'server': 'http://localhost:8081'}
+------- Waiting for 5------
+------- Finished ------
+{'sleep': '100', 'server': 'http://192.168.253.1:8081', 'id': 'id_41', 'misc': ['127.0.0.1']}
